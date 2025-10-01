@@ -36,7 +36,7 @@ sclog.Default().Info("hello world")
 ```
 
 ```text
-2017-07-05T16:15:55.167-0700 [INFO ] hello world
+2025-10-02T16:15:55.167-0700 [INFO ] hello world
 ```
 
 (Note timestamps are removed in future examples for brevity.)
