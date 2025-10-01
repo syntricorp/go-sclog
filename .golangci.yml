@@ -1,0 +1,8 @@
+# Copyright (c) SyntriCorp, Inc.
+# SPDX-License-Identifier: MIT
+
+linters:
+  enable:
+    - errcheck
+    - gosimple
+output_format: colored-line-number
