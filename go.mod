@@ -1,12 +1,17 @@
 module github.com/syntricorp/go-sclog
 
 require (
-	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/fatih/color v1.13.0
-	github.com/mattn/go-colorable v0.1.12
-	github.com/mattn/go-isatty v0.0.14
-	github.com/stretchr/testify v1.7.2
-	golang.org/x/sys v0.0.0-20220503163025-988cb79eb6c6 // indirect
+	github.com/fatih/color v1.18.0
+	github.com/mattn/go-colorable v0.1.14
+	github.com/mattn/go-isatty v0.0.20
+	github.com/stretchr/testify v1.11.1
 )
 
-go 1.13
+require (
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
+)
+
+go 1.23
